@@ -1,5 +1,11 @@
 python-group-based-policy-client (@VERSION@-@REVISION@) trusty; urgency=low
 
+  * Update to Newton
+
+ -- Amit Bose <bose@noironetworks.com>  Fri, 10 Mar 2017 11:33:14 +0000
+
+python-group-based-policy-client (0.12.0-1) trusty; urgency=low
+
   * Update to Mitaka
 
  -- Amit Bose <bose@noironetworks.com>  Fri, 24 Jun 2016 15:45:31 +0000

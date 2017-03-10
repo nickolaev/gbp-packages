@@ -46,6 +46,9 @@ rm -rf %{buildroot}%{python2_sitelib}/gbpautomation/heat/tests
 %{python2_sitelib}/group_based_policy_automation*.egg-info
 
 %changelog
+* Fri Mar 10 2017 Amit Bose <bose@noironetworks.com> - 5.0.0-1
+- Update to Newton
+
 * Fri Jun 24 2016 Amit Bose <bose@noironetworks.com> - 4.0.0-1
 - Update to Mitaka
 
