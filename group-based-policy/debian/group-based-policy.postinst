@@ -20,7 +20,7 @@ set -e
 
 case "$1" in
     configure)
-        gbp-db-manage --config-file /etc/neutron/neutron.conf upgrade head
+        gbp-db-manage --config-file /etc/neutron/neutron.conf upgrade head || true
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
