@@ -50,6 +50,7 @@ gbp-db-manage --config-file /etc/neutron/neutron.conf upgrade head
 %{python2_sitelib}/gbpservice
 %{python2_sitelib}/group_based_policy*.egg-info
 %{_sysconfdir}/group-based-policy/policy.d/policy.json
+%{_sysconfdir}/group-based-policy/drivers/*.ini
 %{_sysconfdir}/group-based-policy/*.ini
 %{_sysconfdir}/nfp.ini
 
