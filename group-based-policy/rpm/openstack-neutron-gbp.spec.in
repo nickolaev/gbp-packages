@@ -38,7 +38,7 @@ rm -rf %{buildroot}%{python2_sitelib}/gbpservice/neutron/tests
 rm -rf %{buildroot}%{python2_sitelib}/gbpservice/tests
 
 %post
-gbp-db-manage --config-file /etc/neutron/neutron.conf upgrade head
+gbp-db-manage --config-file /etc/neutron/neutron.conf upgrade head || true
 
 %files
 %doc LICENSE
