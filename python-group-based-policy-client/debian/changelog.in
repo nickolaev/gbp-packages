@@ -1,4 +1,4 @@
-python-group-based-policy-client (@VERSION@-@REVISION@) trusty; urgency=low
+python-group-based-policy-client (@VERSION@-@REVISION@) xenial; urgency=low
 
   * Update to Mitaka
 

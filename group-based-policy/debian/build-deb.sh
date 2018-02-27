@@ -26,5 +26,5 @@ sed -e "s/@VERSION@/$VERSION/" -e "s/@REVISION@/$REVISION/" ${SOURCE_DIR}/debian
 
 mv $BUILD_DIR/$SOURCE_FILE $BUILD_DIR/${NAME}_${VERSION}.orig.tar.gz
 pushd ${SOURCE_DIR}
-debuild -d -us -uc
+debuild -d -us -uc -S
 popd

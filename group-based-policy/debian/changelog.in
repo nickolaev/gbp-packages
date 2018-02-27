@@ -1,4 +1,4 @@
-group-based-policy (@VERSION@-@REVISION@) trusty; urgency=low
+group-based-policy (@VERSION@-@REVISION@) xenial; urgency=low
 
   * Update to Mitaka
 
